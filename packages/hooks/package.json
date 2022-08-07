@@ -1,6 +1,6 @@
 {
   "name": "@mymonorepo/hooks",
-  "version": "1.0.1",
+  "version": "2.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@mymonorepo/utils": "workspace:^1.0.1",
+    "@mymonorepo/utils": "workspace:^2.0.2",
     "father-build": "^1.22.3"
   },
   "publishConfig": {

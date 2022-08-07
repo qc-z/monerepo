@@ -1,8 +1,7 @@
 {
+  "private": true,
   "name": "mymonerepo",
-  "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "preinstall": "npx only-allow pnpm",
     "postinstall": "husky install",
@@ -12,7 +11,8 @@
     "version-packages": "changeset version",
     "release": "pnpm build && pnpm release:only",
     "release:only": "changeset publish --registry=https://registry.npmjs.com/ --access public",
-    "commit": "cz"
+    "commit": "cz",
+    "change": "node ./scripts/change.js"
   },
   "keywords": [],
   "author": "",
