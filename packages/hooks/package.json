@@ -1,15 +1,20 @@
 {
-  "name": "@mymonerepo/hooks",
-  "version": "1.0.0",
+  "name": "@mymonorepo/hooks",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "father-build"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@mymonorepo/utils": "workspace:^1.0.1",
     "father-build": "^1.22.3"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
   }
 }
