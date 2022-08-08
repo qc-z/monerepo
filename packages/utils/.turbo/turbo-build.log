@@ -1,0 +1,14 @@
+[35m@mymonorepo/utils:build[0m: cache hit, replaying output [2m503c0772c5110d28[0m
+[35m@mymonorepo/utils:build: [0m
+[35m@mymonorepo/utils:build: [0m> @mymonorepo/utils@2.0.2 build /Users/qichenggege/Desktop/monerepo/packages/utils
+[35m@mymonorepo/utils:build: [0m> father build
+[35m@mymonorepo/utils:build: [0m
+[35m@mymonorepo/utils:build: [0minfo  - Clean output directories
+[35m@mymonorepo/utils:build: [0minfo  - Bundless for src directory to esm format
+[35m@mymonorepo/utils:build: [0mevent - Bundless src/index.ts to dist/esm/index.js (with declaration)
+[35m@mymonorepo/utils:build: [0mevent - Generate declaration file...
+[35m@mymonorepo/utils:build: [0mevent - Transformed successfully in 44 ms (1 files)
+[35m@mymonorepo/utils:build: [0minfo  - Bundless for src directory to cjs format
+[35m@mymonorepo/utils:build: [0mevent - Bundless src/index.ts to dist/cjs/index.js (with declaration)
+[35m@mymonorepo/utils:build: [0mevent - Generate declaration file...
+[35m@mymonorepo/utils:build: [0mevent - Transformed successfully in 7 ms (1 files)

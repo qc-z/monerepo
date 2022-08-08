@@ -3,16 +3,23 @@
   "name": "mymonerepo",
   "description": "",
   "scripts": {
+    "build:dev": "turbo run build dev",
+    "build:dev:filter": "turbo run build dev --filter=@mymonorepo/hooks",
+    "build": "turbo run build --color",
+    "build:only": "turbo run build --only",
+    "dev": "turbo run dev --parallel",
+    "lint": "turbo run lint",
+    "build1": "pnpm --filter=@mymonorepo/* run build",
     "preinstall": "npx only-allow pnpm",
     "postinstall": "husky install",
-    "build": "pnpm --filter=@mymonorepo/* run build",
     "clear": "rimraf 'packages/*/{lib,node_modules}' && rimraf node_modules",
     "changeset": "changeset",
     "version-packages": "changeset version",
     "release": "pnpm build && pnpm release:only",
     "release:only": "changeset publish --registry=https://registry.npmjs.com/ --access public",
     "commit": "cz",
-    "change": "node ./scripts/change.js"
+    "change": "node ./scripts/change.js",
+    "eslint": "eslint . --ext .ts,.tsx,.vue,.js,.jsx"
   },
   "keywords": [],
   "author": "",
@@ -24,11 +31,20 @@
     "@typescript-eslint/eslint-plugin": "^5.32.0",
     "@typescript-eslint/parser": "^5.32.0",
     "commitizen": "^4.2.5",
+    "commitlint-config-cz": "^0.13.3",
     "cz-conventional-changelog": "^3.3.0",
+    "cz-customizable": "^6.9.1",
     "eslint": "^8.21.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
     "husky": "^8.0.1",
     "lint-staged": "^13.0.3",
-    "rimraf": "^3.0.2"
+    "pnpm": "^7.9.0",
+    "prettier": "^2.7.1",
+    "rimraf": "^3.0.2",
+    "tsup": "^6.2.1",
+    "turbo": "^1.4.2",
+    "typescript": "^4.6.4"
   },
   "packageManager": "pnpm@7.0.1",
   "engines": {
@@ -42,7 +58,7 @@
   },
   "config": {
     "commitizen": {
-      "path": "cz-conventional-changelog"
+      "path": "node_modules/cz-customizable"
     }
   }
 }
