@@ -9,8 +9,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@mymonorepo/hooks": "workspace:^2.0.4",
     "@mymonorepo/utils": "workspace:^2.0.2",
-    "vue": "^0.0.0"
+    "vue": "3.2.37"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^3.0.0",

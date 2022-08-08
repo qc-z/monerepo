@@ -1,5 +1,17 @@
 # @mymonorepo/hooks
 
+## 2.0.4
+
+### Patch Changes
+
+- 升级 hooks
+
+## 2.0.3
+
+### Patch Changes
+
+- turborepo
+
 ## 2.0.2
 
 ### Patch Changes

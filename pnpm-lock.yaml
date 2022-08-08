@@ -56,11 +56,11 @@ importers:
 
   packages/react-vite:
     specifiers:
-      '@mymonorepo/utils': workspace:^1.0.0
+      '@mymonorepo/utils': workspace:^2.0.2
       '@types/react': ^18.0.15
       '@types/react-dom': ^18.0.6
       '@vitejs/plugin-react': ^2.0.0
-      react: ^18.2.0
+      react: 18.2.0
       react-dom: ^18.2.0
       typescript: ^4.6.4
       vite: ^3.0.0
@@ -83,13 +83,15 @@ importers:
 
   packages/vue-vite:
     specifiers:
-      '@mymonorepo/utils': workspace:^1.0.0
+      '@mymonorepo/hooks': workspace:^2.0.4
+      '@mymonorepo/utils': workspace:^2.0.2
       '@vitejs/plugin-vue': ^3.0.0
       typescript: ^4.6.4
       vite: ^3.0.0
-      vue: ^3.2.37
+      vue: 3.2.37
       vue-tsc: ^0.38.4
     dependencies:
+      '@mymonorepo/hooks': link:../hooks
       '@mymonorepo/utils': link:../utils
       vue: 3.2.37
     devDependencies:
