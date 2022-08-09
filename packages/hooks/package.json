@@ -1,10 +1,12 @@
 {
   "name": "@mymonorepo/hooks",
-  "version": "2.0.4",
+  "version": "2.0.5",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "father-build"
+    "build": "father-build",
+    "deploy": "pnpm publish",
+    "lint": "eslint . --ext .ts,.tsx,.vue,.js,.jsx"
   },
   "keywords": [],
   "author": "",

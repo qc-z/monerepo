@@ -1,5 +1,11 @@
 # @mymonorepo/hooks
 
+## 2.0.5
+
+### Patch Changes
+
+- 测试 turbo
+
 ## 2.0.4
 
 ### Patch Changes

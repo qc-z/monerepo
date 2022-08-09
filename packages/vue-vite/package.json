@@ -9,7 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@mymonorepo/hooks": "workspace:^2.0.4",
+    "@mymonorepo/hooks": "workspace:^2.0.5",
     "@mymonorepo/utils": "workspace:^2.0.2",
     "vue": "3.2.37"
   },
