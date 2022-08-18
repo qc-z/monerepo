@@ -1,0 +1,14 @@
+{
+  "mode": "pre",
+  "tag": "beta",
+  "initialVersions": {
+    "@mymonorepo/hooks": "2.0.5",
+    "my-react": "0.0.0",
+    "@mymonorepo/utils": "2.0.2",
+    "my-vue": "0.0.0"
+  },
+  "changesets": [
+    "giant-pumpkins-enjoy",
+    "spotty-papayas-march"
+  ]
+}

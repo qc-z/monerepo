@@ -12,6 +12,8 @@
     "postinstall": "husky install",
     "clear": "rimraf 'packages/*/{lib,node_modules}' && rimraf node_modules",
     "changeset": "changeset",
+    "changeset:beta": "changeset pre enter beta",
+    "changeset:exit": "changeset pre exit",
     "version-packages": "changeset version",
     "vp": "pnpm version-packages",
     "commit": "cz",

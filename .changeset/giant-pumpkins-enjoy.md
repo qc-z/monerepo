@@ -1,0 +1,5 @@
+---
+'@mymonorepo/hooks': patch
+---
+
+beta

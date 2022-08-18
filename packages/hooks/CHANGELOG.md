@@ -1,5 +1,17 @@
 # @mymonorepo/hooks
 
+## 2.0.6-beta.1
+
+### Patch Changes
+
+- beta1
+
+## 2.0.6-beta.0
+
+### Patch Changes
+
+- beta
+
 ## 2.0.5
 
 ### Patch Changes
